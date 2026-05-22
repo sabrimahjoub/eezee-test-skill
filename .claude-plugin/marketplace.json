@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "eezee-test-skill",
+  "description": "Marketplace de test pour eezee.cloud",
+  "owner": {
+    "name": "eezee",
+    "url": "https://eezee.cloud"
+  },
+  "plugins": [
+    {
+      "name": "test-skill",
+      "description": "Skill de test pour eezee.cloud",
+      "author": {
+        "name": "eezee"
+      },
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sabrimahjoub/eezee-test-skill.git",
+        "path": "plugins/test-skill",
+        "ref": "master"
+      }
+    }
+  ]
+}
